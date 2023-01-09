@@ -1,0 +1,271 @@
+@font-face{
+    font-family:sHeavy; 
+    src:url(../font/SourceHanSansTC-Heavy.otf);
+}
+@font-face{
+    font-family:sBold; 
+    src:url(../font/sourceHanSansTC-Bold.otf);
+}
+@font-face{
+    font-family:sMedium; 
+    src:url(../font/sourceHanSansTC-Medium.otf);
+}
+@font-face{
+    font-family:eblack; 
+    src:url(../font/ArialBlack.ttf);
+}
+.aaa{
+    text-decoration: none;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:6vw;
+}
+.logo{
+    height:3vw;
+    position: fixed;
+    left:5%;
+    z-index: 9999;
+}
+/* 導覽列背景顏色 */
+.navbarbg{
+    position:fixed;
+    top:0;
+    background-color:#f4f4f4;
+    height:6vw;
+    width:100%;
+    z-index:999;
+}
+/*
+.reserve{
+    position:fixed;
+    top:0;
+    background-color:#a51324;
+    height:6vw;
+    width:20vw;
+    right:0;
+}
+*/
+/* 讓下拉式選單自己跑 */
+.dropdown-menu li:hover .sub-menu {visibility: visible;}
+.dropdown:hover .dropdown-menu {display: block;}
+.navbuttenbox{
+    display:flex;
+    justify-content:flex-end;
+    position:fixed;
+    right:5%;
+    letter-spacing:2px;
+    z-index:9999;
+}
+.navbutten{
+    font-size:1.2vw;
+    font-family:sBold;
+    color:#353535;
+    background-color: transparent;
+    border-style: none;
+}
+.navbutten:hover{
+    font-size:1.2vw;
+    font-family:sBold;
+    color:#222222;
+    background-color: transparent;
+    border-style: none;
+}
+.dropdownitem{
+    padding-bottom:4px;;
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #353535;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    font-size:1vw;
+    font-family:sHeavy;
+    padding-top:3px;
+}
+.indmod{
+    width: 40vw;
+    left:10%;
+}
+.start{
+    font-size:1.4vw;
+    font-family:eblack;
+}
+.give{
+    font-size:4.6vw;
+    font-family:sHeavy;
+    letter-spacing:3px;
+    display: flex;
+}
+.indww{
+    padding-left:80px;
+    padding-top:30px;
+}
+.onee{
+    font-family:sHeavy;
+    letter-spacing:2px;
+    color:#7c7c7c;
+    font-size:1.2vw;
+}
+/* 免費體驗 */
+.reserve{
+    background-color: #a51324;
+    font-family:sheavy;
+    color:#fff;
+    width:18vw;
+    height:7vw;
+    border-radius:4vw;
+    font-size:2.8vw;
+    letter-spacing:4px;
+    border:0;
+}
+.reserve:hover{
+    background-color: #f4f4f4;
+    font-family:sheavy;
+    color:#a51324;
+    width:18vw;
+    height:7vw;
+    border-radius:4vw;
+    font-size:2.8vw;
+    letter-spacing:4px;
+    border:0;
+}
+.carouselll{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+     left: 0;
+     margin: auto;
+     width:800px;
+     padding-top:100px;
+}
+/* 最新消息 */
+.newss{
+    color: #a51324;
+    font-family:sHeavy;
+    font-size:2.8vw;
+    letter-spacing: 2px;
+    width:100%;
+    text-align: center;
+    padding-top:40px;
+    background-color: #f4f4f4;
+}
+/* 輪播裡面圖片設定 */
+.swiperr{
+    height:45vw;
+    width:100%;
+    border-radius:30px;
+}
+/* 輪播box */
+.swipbox{
+    width:70vw;
+    height:30vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top:50px;
+    
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+ .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+.cardd{
+    padding-top:500px;
+    width:100%;
+    background-color:transparent;
+}
+
+/*  */
+/*  */
+.threebox{
+    display: flex;
+    justify-content: center;    
+    /* 垂直置中 */
+    align-items: center;   
+   
+}
+.boxx{
+    width:20vw;
+    height:40vw;
+    background-color: #ffffff;
+    margin: 50px;
+    box-shadow: 5px 5px 15px rgba(31, 31, 31, 0.9);
+    border-radius:30px;
+}
+.boxx:hover{
+     transform: scale(1.1);
+     transition:1.2s ease;
+     cursor: pointer;
+     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.alltheeve{
+    text-align: center;
+    font-family:sHeavy;
+    color:#353535;
+    letter-spacing:1px;
+    font-size: 1.2vw;
+    padding-top:20vw;
+    padding-bottom:30vw;
+}
+/*  課程介紹 */
+.newsss{
+    color: #fff;
+    font-family:sHeavy;
+    font-size:2.8vw;
+    letter-spacing: 2px;
+    width:100%;
+    text-align: center;
+    padding-top:2vw;
+}
+.bottt{
+    height:12vw;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;    
+    /* 垂直置中 */
+    align-items: center;   
+}
+.logoo{
+    height:3vw;
+    padding-right:10vw;
+}
+.botword{
+    font-family:sBold;
+    letter-spacing:2px;
+    color:#7c7c7c;
+    font-size:1.2vw;
+}
+.outimg{
+    width:100%;
+    padding-right:2vw;
+    padding-top:180px;
+
+}
+.abtword{
+    width:40vw;
+}
