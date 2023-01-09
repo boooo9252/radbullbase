@@ -1,18 +1,18 @@
 @font-face{
     font-family:sHeavy; 
-    src:url(/Users/bolin/Documents/!web/redbullbase/font/SourceHanSansTC-Heavy.otf);
+    src:url(../font/SourceHanSansTC-Heavy.otf);
 }
 @font-face{
     font-family:sBold; 
-    src:url(/Users/bolin/Documents/!web/redbullbase/font/sourceHanSansTC-Bold.otf);
+    src:url(../font/sourceHanSansTC-Bold.otf);
 }
 @font-face{
     font-family:sMedium; 
-    src:url(/Users/bolin/Documents/!web/redbullbase/font/sourceHanSansTC-Medium.otf);
+    src:url(../font/sourceHanSansTC-Medium.otf);
 }
 @font-face{
     font-family:eblack; 
-    src:url(/Users/bolin/Documents/!web/redbullbase/font/ArialBlack.ttf);
+    src:url(../font/ArialBlack.ttf);
 }
 .aaa{
     text-decoration: none;
@@ -168,12 +168,14 @@
 /* 輪播box */
 .swipbox{
     width:70vw;
+    height:30vw;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    margin: auto;
+    margin-left:auto;
+    margin-right: auto;
     padding-top:50px;
     
 }
